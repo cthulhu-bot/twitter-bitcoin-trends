@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17",
+    "node-fetch": "^2.2.0",
+    "pg": "^7.4.3",
+    "ramda": "^0.25.0",
+    "twit": "^2.2.11",
+    "victory": "^30.4.1"
+  }
+}
